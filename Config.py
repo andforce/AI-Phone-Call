@@ -19,7 +19,7 @@ class Config:
         config_yaml = assets.config_file()
         with open(config_yaml, 'r', encoding='utf-8') as file:
             self.config = yaml.safe_load(file)
-        self.print_all()
+        # self.print_all()
 
     def get(self, key, default=None):
         return self.config.get(key, default)

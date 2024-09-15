@@ -18,6 +18,30 @@
 
 ![ai_phon_call.png](screenshots/ai_phon_call.png)
 
+## 硬件连接
+### 方案一
+![pi_4b.png](screenshots/pi_4b.png)
+
+### 方案二
+![pi_4b_2.png](screenshots/pi_4b_2.png)
+
+### 方案三
+> 为了体积更小，可以使用【树莓派CM4+扩展板】代替树莓派4B。
+
+![pi_cm4.png](screenshots/pi_cm4.png)
+
+### 最小硬件连接方案
+> 【树莓派CM4+扩展板】+【4G模块转接板MiniPcie转USB】
+
+![4g_minipcie.png](screenshots/4g_minipcie.png)
+
+![img_4.png](3D/img_4.png)
+
+> 配合3D打印外壳的效果如下：
+
+![img_3.png](3D/img_3.png)
+
+
 ## 运行环境
 - python3
 ```shell

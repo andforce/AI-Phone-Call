@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ## 配置与运行
 
-### 1. `assets/config.yaml` 配置文件
+### 1. `config.yaml` 配置文件
 ```yaml
 # 访问阿里云 https://nls-portal.console.aliyun.com/applist
 # 创建一个实时语音识别应用，获取 “项目Appkey”，注意项目类型要选：“语音识别 + 语音合成 + 语音分析”

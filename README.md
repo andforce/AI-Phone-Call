@@ -1,4 +1,7 @@
-# Jarvis
+# AI Phone Call
+
+## B站视频
+https://www.bilibili.com/video/BV1724Ce1EUs
 
 ## 简介
 这是一个基于大模型服务的“电话助手”，可以通过配置“提示词”对`语音通话`和`文字短信`进行处理。

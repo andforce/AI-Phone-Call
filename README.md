@@ -22,6 +22,9 @@ https://www.bilibili.com/video/BV1724Ce1EUs
 ![ai_phon_call.png](screenshots/ai_phon_call.png)
 
 ## 硬件连接
+### 无树莓派方案
+只需把下面的树莓派，换成安装Linux的电脑即可。
+
 ### 方案一
 ![pi_4b.png](screenshots/pi_4b.png)
 

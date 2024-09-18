@@ -10,7 +10,7 @@ TEST_ACCESS_APPKEY = config.get("app_key")  # 使用Config获取app_key
 TEXT = '围，您好，我是王先生的私人秘书，您找他有什么事情吗？'
 
 
-class TestTts:
+class HelloTTSGenerator:
     def __init__(self, tid, test_file):
         self.__th = threading.Thread(target=self.__test_run)
         self.__id = tid
@@ -69,5 +69,5 @@ class TestTts:
 
 if __name__ == '__main__':
     nls.enableTrace(True)
-    t = TestTts("thread1", "say_hello.pcm")
+    t = HelloTTSGenerator("thread1", "say_hello.pcm")
     t.start(TEXT)
